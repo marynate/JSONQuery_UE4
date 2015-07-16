@@ -1,0 +1,20 @@
+{
+	"FileVersion" : 1,
+
+	"FriendlyName" : "JSON Query",
+	"Version" : 4,
+	"VersionName" : "0.9",
+	"CreatedBy" : "Stefander",
+	"CreatedByURL" : "http://stefander.nl/",
+	"Description" : "Exposes nodes to Blueprint that allow you to easily post and request pages on webservers through the JSON protocol.",
+	"Category" : "Web",
+	
+	"Modules" :
+	[
+		{
+			"Name" : "JSONQuery",
+			"Type" : "Runtime"
+		},
+		
+	]
+}
