@@ -1,13 +1,15 @@
 {
-	"FileVersion" : 1,
+	"FileVersion" : 3,
 
 	"FriendlyName" : "JSON Query",
-	"Version" : 4,
-	"VersionName" : "0.9",
+	"Version" : 5,
+	"VersionName" : "0.91",
 	"CreatedBy" : "Stefander",
 	"CreatedByURL" : "http://stefander.nl/",
+	"EngineVersion" : "4.8.0",
 	"Description" : "Exposes nodes to Blueprint that allow you to easily post and request pages on webservers through the JSON protocol.",
 	"Category" : "Web",
+	"EnabledByDefault" : true,
 	
 	"Modules" :
 	[

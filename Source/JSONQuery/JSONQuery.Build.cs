@@ -8,10 +8,10 @@ public class JSONQuery : ModuleRules
         PublicDependencyModuleNames.AddRange(
 			new string[] { 
 				"Core", 
-                "HTTP",
 				"CoreUObject",
 				"Engine",
-                "Json"
+				"HTTP",
+				"Json"
 			}
 		);
 	}

@@ -366,6 +366,23 @@ void UJsonFieldData::FromString(const FString& dataString) {
 }
 
 /**
+* Creates new data from the
+*
+* @param	FilePath	Text Json File in game content folder
+*
+* @return	JsonFieldData Object
+*/
+void UJsonFieldData::FromFile(const FString& FilePath) {
+
+	FString Result;
+	FString FullJsonPath = FPaths::ConvertRelativePathToFull(FPaths::GameContentDir() / FilePath);
+	if (!FFileHelper::LoadFileToString(Result, *FullJsonPath)) {
+		UE_LOG(LogJson, Error, TEXT("Can't load json data from %s"), *FilePath);
+	}
+	FromString(Result);
+}
+
+/**
 * Callback for IHttpRequest::OnProcessRequestComplete()
 *
 * @param	Request					HTTP request pointer
