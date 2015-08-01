@@ -16,7 +16,6 @@
 		{
 			"Name" : "JSONQuery",
 			"Type" : "Runtime"
-		},
-		
+		}
 	]
 }
