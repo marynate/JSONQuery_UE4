@@ -32,5 +32,6 @@ https://wiki.unrealengine.com/File:JSONPostOutput.png
 
 ## Rebuilding
 
-You can rebuild the binaries by downloading the latest binary version into a
-new UE4 C++ project and rebuilding the DLLs using Visual Code studio.
+You can rebuild the binaries by cloning this repository into a new UE4 C++ project.
+When opening the project, the editor should ask you to rebuild the missing binary files
+(e.g. with Visual Studio).
