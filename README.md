@@ -15,10 +15,10 @@ Blueprints, which allows you to fully customize the post data and event dispatch
 
 ## Downloads
 Latest version (Binary):
-[https://github.com/marynate/JSONQuery_UE4/releases/download/0.91/JSONQuery-Bin-4.8.3.zip JSONQueryUE4.8.3.zip]
+[JSONQueryUE4.8.3.zip](https://github.com/marynate/JSONQuery_UE4/releases/download/0.91/JSONQuery-Bin-4.8.3.zip)
 
 Latest version (Source):
-[https://github.com/marynate/JSONQuery_UE4 JSONQuery-Github]
+https://github.com/marynate/JSONQuery_UE4
 
 ## Blueprint Examples
 
