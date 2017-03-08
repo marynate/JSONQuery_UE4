@@ -24,11 +24,11 @@ https://github.com/marynate/JSONQuery_UE4
 
 ### Post data when the game starts
 
-![POST example](https://wiki.unrealengine.com/File:JSONPostExample.png)
+https://wiki.unrealengine.com/File:JSONPostExample.png
 
 ### Example output
 
-![Example output](https://wiki.unrealengine.com/File:JSONPostOutput.png)
+https://wiki.unrealengine.com/File:JSONPostOutput.png
 
 ## Rebuilding
 
